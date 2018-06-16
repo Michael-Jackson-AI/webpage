@@ -1,3 +1,2 @@
 # webpage
-
-MichalelJackson.AI
+MichaelJackson.ai
