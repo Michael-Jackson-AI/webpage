@@ -1,0 +1,46 @@
+html{
+    height: 100%;
+}
+body{
+    background: #000;
+    height: 100%;
+    margin: 0;
+    color: white;
+}
+
+/* Video */
+
+.video-iframe{
+    height: 60%;
+    text-align: center;
+}
+
+.title{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    animation: colorchange 5s infinite;
+    transition: all .5s ease-in-out;
+}
+
+@keyframes colorchange{
+    50%{
+        background: -webkit-linear-gradient(#ff0000, #572364);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+}
+
+hr {
+    text-align: center;
+    width: 50%;
+}
+
+.description{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 18px;
+}
+
+.description a{
+    color: #fff;
+}
